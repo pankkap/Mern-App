@@ -23,7 +23,7 @@ const TableProduct = ({ products }) => {
                 <td className="p-4 border-b ">{product.quantity}</td>
                 <td className="p-4 border-b ">${product.price}</td>
                 <td className="p-4 border-b ">
-                    <img src={product.image} className="w-full"/>
+                    <img src={product.image} className="w-full" alt="product" />
                 </td>
                 <td className="p-4 border-b ">
                   <div className="flex gap-2">
